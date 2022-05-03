@@ -50,30 +50,43 @@ background-image: linear-gradient( 90deg,white 60%, #000000 0%);
 }
 /* ..........................Nav bar end ............................................................. */
 
-.au
+/* .............................Left Container.................................. */
+
+
+.left_container
 {
-  position: relative;
-  flex: auto;
-  left: 20%;
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 50%;
+}
+
+.aboutusheading
+{
+  color: black;
   font-size: 50px;
 }
 
-.group
+.aboutustext
 {
-  position: relative;
-  border-radius:100%;
-  display: block;
-  width:25%;
-  border-style: solid;
-  border-color: black;
-  border-width: thick;
-  left: 0;
-  top: 20%;
+
+  color: red;
+  font-size: 20px;
+  margin: 10% 20% 0 20%;
 }
 
-.pop
+.Fitmuscles
 {
-  position: static;
-  margin-left: 10%;
-  margin-top:10%;
+  color: red;
+  margin-left: 45%;
+}
+/* .......................Left container ends............... */
+
+
+.group_img
+{
+  position: absolute;
+  top: 28%;
+  right: 27%;
+  border-radius: 80%;
+  border: solid black 6px;
 }
